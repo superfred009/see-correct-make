@@ -64,7 +64,16 @@ footer a:hover {
 }
 #nav-img {
     float: left;
+    padding: 1em;
 }
-#nav-button {
+.nav-button {
     float: right;
+    padding: 1em;
+}
+.nav-button a {
+    text-decoration: none;
+}
+#nav-pitch {
+    float: right;
+    padding: 1em;
 }
