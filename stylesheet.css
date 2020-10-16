@@ -1,5 +1,5 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -50,4 +50,21 @@ footer a {
 }
 footer a:hover {
     color: grey;
+}
+
+.nav-bar {
+    border: solid, black;
+    text-align: center;
+    box-sizing: border-box;
+    position: fixed;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+}
+#nav-img {
+    float: left;
+}
+#nav-button {
+    float: right;
 }
