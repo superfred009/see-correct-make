@@ -14,11 +14,12 @@ p {
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: alternate-gothic-no-3-d, sans-serif;
     color: white;
-    padding-top: 1em;
-    margin-left: 5em;
-    margin-top: 0em;
+    padding-top: 50px;
+    margin-left: 200px;
+    margin-top: 0px;
+    font-size: 40px;
 }
 h2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -39,19 +40,36 @@ h6 {
 .findfit {
     font-family: alternate-gothic-no-3-d, sans-serif;
     color: #423a37;
-    padding-left: 5%;
-    padding-top: 3%;
+    padding-left: 40px;
     margin: 20px;
 }
 .findfit h2 {
     font-size: 8em;
-    margin:0;
+    margin: 0;
     letter-spacing: -5px;
     line-height: 1.2;
 }
 .findfit em {
 	font-family:alternate-gothic-atf, sans-serif;
     font-size: 3em;
+    line-height: 0;
+}
+
+.shaping {
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    color: #423a37;
+    padding-left: 40px;
+    margin: 20px;
+}
+.shaping h2 {
+    font-size: 7em;
+    margin: 0;
+    letter-spacing: -5px;
+    line-height: 1;
+}
+.shaping em {
+	font-family:alternate-gothic-atf, sans-serif;
+    font-size: 2em;
     line-height: 0;
 }
 
@@ -74,6 +92,7 @@ table td {
     text-transform: uppercase;
     text-align: center;
     width: 100%;
+    font-family: alternate-gothic-no-3-d, sans-serif;
 }
 
 .studielinkene {
@@ -93,6 +112,7 @@ table td {
     padding-left: 25%;
     margin: 0px;
     padding-top: 0px;
+    font-family: alternate-gothic-no-3-d, sans-serif;
 }
 
 .studielinker li {
@@ -121,9 +141,13 @@ li a:hover {
 
 .pitchtekst {
     color: white;
-    padding-left: 15em;
+    margin-left: 500px;
     font-style: italic;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.3em;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    margin-top: -30px;
+    font-weight: lighter;
+    font-size: 20px;
 }
 
 .container {
@@ -145,7 +169,8 @@ header {
 }
 
 .headerimg {
-    height: 8em;
+    height: 10em;
+    margin-left: 25px;
 }
 
 
@@ -193,7 +218,8 @@ span {
 .nav-button a {
     text-decoration: none;
     color: white;
-    padding: 1em;
+    font-size: 18px;
+    margin-right: 30px;
 }
 .nav-button a:hover {
     text-decoration: underline;
@@ -225,16 +251,19 @@ span {
 }
 
 .secondNav a {
-    width: 150px;
+    width: 175px;
     display: block;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
     color: white;
+    font-family: alternate-gothic-no-3-d, sans-serif;
 }
 
 .secondNav a:hover {
-    color: #A62342;
+    background-color: #A62342;
+    color: white;
+    border-radius: 5px;
 }
 
 .nav ul li{
@@ -242,6 +271,51 @@ span {
     width: 150px;
     float: center;
     }
+
+
+.weAreUAT {
+    color: #423a37;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: lighter;
+    position: relative;
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-left: 40px;
+    margin-bottom: 0;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+}
+
+.thinkOutsideThe {
+    color: #423a37;
+    text-transform: uppercase;
+    font-size: 80px;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 40px;
+    margin-top: -10px;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    line-height: 0.9;
+}
+
+.firewall {
+    color: #4E7E7E;
+    margin-left: 160px;
+    line-height: 1;
+}
+
+.qubit {
+    color: #A62342;
+    margin-left: 160px;
+}
+
+.campusBilde {
+    width: 70%;
+    height: auto;
+    padding: 50px;
+    margin-bottom: 80px;
+}
 
 .studieinfo {
     
@@ -286,6 +360,7 @@ hr {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 25px;
+    font-family: alternate-gothic-no-3-d, sans-serif;
 }
 
 .news {
@@ -295,6 +370,7 @@ hr {
     letter-spacing: 2px;
     font-size: 25px;
     margin-top: 100px;
+    font-family: alternate-gothic-no-3-d, sans-serif;
 }
 
 .sirkel {
@@ -307,7 +383,6 @@ hr {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    box-shadow: 1px 1px black;
 }
 
 .announcementTitle {
@@ -316,6 +391,7 @@ hr {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
+    font-family: alternate-gothic-no-3-d, sans-serif;
 }
 
 .newsTitle {
@@ -324,6 +400,7 @@ hr {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
+    font-family: alternate-gothic-no-3-d, sans-serif;
 }
 
 .announcementText {
@@ -370,4 +447,15 @@ hr {
 
 #main-content {
     margin-top: -20px;
+}
+
+.shapingImgs {
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin-left: 35px;
+}
+
+.shapingLinker {
+    float: right;
 }
