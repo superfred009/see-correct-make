@@ -55,7 +55,6 @@ h6 {
     margin: 0 auto;
     display: inline-block;
     padding-left: 20px;
-    
 }
 
 .studielinker {
@@ -64,12 +63,14 @@ h6 {
     width: 10%;
     float: left;
     color: #A62342;
-    
 }
 
 .studielinker li {
     padding: 5px;
-    
+}
+
+.studielinker a {
+    color: #A62342;
 }
 
 .infotekst {
