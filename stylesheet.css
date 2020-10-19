@@ -152,7 +152,6 @@ header {
 }
 .nav-button {
     float: right;
-    text-decoration: none;
     color: white
 }
 
@@ -161,9 +160,13 @@ span {
     color: white;
 }
 
-.nav-button a {
+.nav-button a {
     text-decoration: none;
     color: white;
+    padding: 1em;
+}
+.nav-button a:hover {
+    text-decoration: underline;
 }
 
 #nav-pitch {
