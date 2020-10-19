@@ -38,8 +38,8 @@ h6 {
 
 table {
     border-collapse: collapse;
-    width: 100%;
     padding: 10px;
+    width: 75%;
 }
 table td {
     text-align: center;
@@ -232,4 +232,46 @@ span {
     height: 150px;
     padding-top: 30px;
     padding-bottom: 0px;
+}
+
+.boks {
+    width: 300px;
+    height: 2000px;
+    float: right;
+    position: static;
+    background-color: #757575;
+}
+
+.announcements {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.news {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.announcementTitle {
+    color: white;
+}
+
+.newsTitle {
+    color: white;
+}
+
+.announcementText {
+    color: white;
+}
+
+.newsText {
+    color: white;
+}
+
+#main-content {
+    margin-top: -20px;
 }
