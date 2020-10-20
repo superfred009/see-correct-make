@@ -504,6 +504,11 @@ table.shapingTable a:hover {
     color: black;
 }
 
+table.shapingTable img:hover {
+    opacity: 0.6;
+    transition: 0.5s ease;
+}
+
 .sideLinje {
     border-style: solid;
     border-width: 0.5px;
