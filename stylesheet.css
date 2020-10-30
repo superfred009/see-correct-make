@@ -178,7 +178,7 @@ li a:hover {
 
 header {
     background-color: rgb(34, 31, 31);
-    height: 25vh;
+    height: 27vh;
     background-size: cover;
     width: 100%;
     position: relative;
@@ -634,6 +634,8 @@ table {
 }
 }
 
+
+
 @media screen and (max-width: 1400px) {
     .secondNav {
           width: 100%;
@@ -642,6 +644,9 @@ table {
         }
         .nav-button a {
         font-size: 15px;
+    }
+    header {
+        height: 30vh;
     }
     }
 
